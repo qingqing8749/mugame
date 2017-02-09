@@ -1,0 +1,118 @@
+body {
+    font: 13px "微软雅黑", Arial, sans-serif;
+    background: #000;
+}
+.wrap{
+    position: relative;
+    background: url("../img/wall2.jpg") no-repeat left top; 
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+}
+header{
+  background: url(../img/header-bg-shop.jpg) no-repeat;
+  height: 117px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  width: 2000px;
+  left: 50%;
+  margin-left: -1000px;
+}
+.header1{
+    width: 1000px;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+}
+.header1 .pre_home{
+  border: 1px #871a22 solid;
+  border-radius: 40px;
+}
+.top_title{
+  height: 52px;
+  width: 100%
+}
+.top_nav_box{
+  list-style: none;
+  margin: 0;
+  position: relative;
+  left: 82px;
+}
+.top_nav_box li{
+  float: left;
+  padding: 22px 20px;
+  font-size: 16px;
+  
+  color: #fff
+}
+.top_nav_box li.active{
+  background-color: #871a22;
+  background-color: rgba(135,26,34,.5);
+  color: #ffb100
+}
+.middle{
+  width: 700px;
+  height: 870px;
+  background: rgba(29,29,29,.7);
+  margin-top: 300px;
+  margin-left: 800px;
+}
+.tab_title{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: url(../img/section2-btn1.png) center repeat;
+  height: 49px;
+  position: relative;
+}
+.tab_title li{
+  float: left;
+  width: 132px;
+  height: 49px;
+}
+.tab_title li a{
+  display: block;
+  width: 132px;
+  height: 49px;
+  color: #c9c9c9;
+  text-align: center;
+  line-height: 49px;
+  font-size: 14px;
+}
+.tab_title li a.active{
+  background:url(../img/section2-btn-hover.png) center repeat;
+  color: #ffb100 
+}
+.content{
+  padding: 40px 20px 10px 20px;
+  position: absolute;
+  top: 49px;
+  color: #fff;
+  font-size: 16px;
+}
+.content table{
+  width: 100%;
+  height: 100%
+}
+.content table select{
+  color: #000
+}
+.content table tr:nth-child(even){
+  border-bottom: #CCCCCC solid 1px;
+}
+
+/*底部*/
+footer{
+    width: 100%;
+    clear: both;
+    text-align: center;
+    line-height: 240%;
+    font-size: 12px;
+    color: #666;
+    padding: 20px 0;
+}
+
+
+
